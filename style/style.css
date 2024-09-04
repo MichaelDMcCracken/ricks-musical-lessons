@@ -231,7 +231,7 @@ footer h3 {
     margin-right: auto;
 }
 
-button {
+.blue-button {
     width: 3rem;
     height: 3rem;
     border-radius: 3rem;
@@ -240,7 +240,7 @@ button {
     color: #101720;
 }
 
-button:hover {
+.blue-button:hover {
     background-color: #101720;
     color: #92dce5;
     border: none;
