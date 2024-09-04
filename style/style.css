@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     /* background-color: #f8f7f9; */
+    font-family: 'Lexend', sans-serif;
 }
 
 header {
@@ -22,12 +23,24 @@ h1 {
     font-family: 'Museo', serif;
     font-weight: 900;
     color: #101720;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+p {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    font-size: 1.15rem;
+    padding-top: 0.5rem;
+    letter-spacing: 0.05em;
+    line-height: 1.8rem;
 }
 
 .center-container {
-    width: 66%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 
@@ -42,25 +55,107 @@ ul {
 nav {
     text-align: center;
     position: relative;
+    background-color: #92dce5;
 }
 
 
 nav ul li {
     display: inline-block;
-    padding: 1.2rem 3rem;
-    font-size: 1rem;
+    padding: 1.3rem 3rem;
+    font-size: .9rem;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #404e5c;
+    color: #101720;
     font-family: 'Lexend', sans-serif;
 }
 
 nav ul li a:hover {
-    font-weight: 700;
+    font-weight: 500;
 }
 
-.title {
-    width: 100%;
+nav ul li i {
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.divider {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #92dce5;
+}
+
+h2 {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.lesson-types {
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.type {
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    border: #92dce5 2px solid;
+    min-width: 10rem;
+}
+
+.type:hover {
+    background-color: #92dce5;
+    color: #FFF;
+}
+
+.type-icon {
+    font-size: 3rem;
+    color: #101720;
+}
+
+.type-text {
+    font-weight: 400;
+    color: #101720;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+hr {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.payment {
+    display: flex;
+    width: 50%;
+}
+
+.cost {
+    padding: 3rem;
+}
+
+.alert {
+    background-color: #92dce5;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-top: 2rem;
+}
+
+.alert i {
+    font-size: 3rem;
+}
+
+.alert p {
+    font-weight: 600;
+    letter-spacing: normal;
 }
