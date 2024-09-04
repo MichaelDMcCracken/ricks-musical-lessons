@@ -13,6 +13,7 @@
         href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
     <script src="https://kit.fontawesome.com/01cb587101.js" crossorigin="anonymous"></script>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
 <header>
@@ -36,7 +37,7 @@
         </div>
         <div class="divider">- <i class="fa-solid fa-guitar"></i>-</div>
         <div id="lessons">
-            <h2>Pastor Rick offers private music lessons to children, teens, and adults in the following areas:</h2>
+            <h2>Offering private music lessons to children, teens, and adults in the following areas:</h2>
             <div class="lesson-types">
                 <div class="type">
                     <div class="type-icon">
@@ -115,11 +116,11 @@
         <div class="divider">- <i class="fi fi-sr-music-alt"></i> -</div>
         <div id="pricing">
             <h2>Affordable Pricing.</h2>
-            <p>What You Pay</p>
+            <p>YOU PAY</p>
             <h3>$120</h3>
             <h4>per month</h4>
             <hr>
-            <p>What You Get</p>
+            <p>YOU GET</p>
             <h3>4 lessons</h3>
             <h4>per month (30 minutes each)</h4>
             <div class="alert">
@@ -135,12 +136,18 @@
         <div id="meet-rick">
             <h2>Meet Your Instructor.</h2>
             <br>
-            <img src="./img/pastorrick_tn.jpg">
+            <div class="w3-content w3-display-container">
+                <img src="./img/family.jpg" class="w3-image">
+                <img src="./img/rick-and-claudia.jpg" class="w3-image">            
+                <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+            </div>
             <p>Affectionately known as "Pastor Rick", Rick Cobb has been teaching private music lessons for over 30 years in the Ormond Beach Conservatory of Music.
-            Pastor Rick served faithfully for 35 years as Pastor of Music and Worship at Riverbend Community Church in Ormond Beach, Florida.</p><br>
-            <p>Pastor Rick received his <span style="font-weight: 600;">Bachelor of Music Education</span> degree from Florida State University (Tallahassee, FL).
-                He later received his <span style="font-weight: 600;">Master of Music</span> degree from Southwestern Baptist Theological Seminary (Dallas, TX).
-            </p>
+            Pastor Rick served faithfully for 35 years as Pastor of Music and Worship at Riverbend Community Church in Ormond Beach, Florida.
+            Pastor Rick received his <span style="font-weight: 600;">Bachelor of Music Education</span> degree from Florida State University (Tallahassee, FL).
+                He later received his <span style="font-weight: 600;">Master of Music</span> degree from Southwestern Baptist Theological Seminary (Ft. Worth, TX).
+            </p><br>
+            <p>Rick has been married to his wife, Claudia, for 42 years. Rick and Claudia were homeschool parents to their six children.</p>
         </div>
         <div class="divider">- <i class="fi fi-sr-cello"></i> -</div>
         <div id="contact">
@@ -157,7 +164,25 @@
         </div>
     </div>
 </main>
-    
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("w3-image");
+        if (n > x.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = x.length }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+    }
+</script>
 </body>
 <footer>
     <h2>(c) 2024 – Rick's Musical Lessons</h2>

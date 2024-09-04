@@ -16,7 +16,10 @@ body {
 }
 
 main {
-    padding-top: 2rem;
+    /* background-color: #f8f7f9;
+    background-image: radial-gradient(#92dce5 1.35px, transparent 1.35px), radial-gradient(#92dce5 1.35px, #fff 1.35px);
+    background-size: 54px 54px;
+    background-position: 0 0, 27px 27px; */
 }
 
 h1 {
@@ -36,10 +39,14 @@ p {
 }
 
 .center-container {
-    width: 60%;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    background-color: #fFF;
 }
 
 
@@ -131,7 +138,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .payment {
@@ -212,4 +219,18 @@ footer h3 {
         padding: 1rem 1rem;
         font-size: 1rem;
     }
+}
+
+#pricing p {
+    font-weight: 300;
+}
+
+#meet-rick img {
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w3-black {
+    background-color: #92dce5;
 }
