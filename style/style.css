@@ -229,6 +229,7 @@ footer h3 {
     margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
+    object-fit: contain;
 }
 
 .blue-button {
