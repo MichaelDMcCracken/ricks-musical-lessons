@@ -32,7 +32,6 @@ p {
     font-weight: 400;
     font-size: 1.15rem;
     padding-top: 0.5rem;
-    letter-spacing: 0.05em;
     line-height: 1.8rem;
 }
 
@@ -158,4 +157,42 @@ hr {
 .alert p {
     font-weight: 600;
     letter-spacing: normal;
+}
+
+#sufs {
+    width: 50%;
+}
+
+footer {
+    background-color: #92dce5;
+    margin-top: 3rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#contact i {
+    font-size: 2rem;
+    margin-top: 10rem;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #101720;
+}
+
+#contact a:hover {
+    color: #92dce5;
+    font-weight: 800;
+}
+
+
+footer h3 {
+    font-size: 1rem;
+    font-weight: 200;
+    margin: 0.5rem;
 }
